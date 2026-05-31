@@ -48,14 +48,28 @@ Resultado esperado: cálculo del gasto anterior, gasto actual y diferencia.
 
 ---
 
-## 👨‍💻 Créditos
+## 📁 Estructura
 
-Proyecto realizado por **[Tu Nombre]**  
-Materia: **Programación Web I**
+proyecto-web-crisis/
+│
+├── index.html
+│
+├── css/
+│   └── estilos.css
+│
+├── js/
+│   └── script.js
+│
+├── img/
+│   └── imagenes-del-proyecto
+│
+└── README.md
 
 ---
 
-## 🔗 Enlaces
+## 👨‍💻 Créditos
 
-- **Repositorio GitHub:** [https://github.com/usuario/proyecto-web-crisis](https://github.com/usuario/proyecto-web-crisis)  
-- **Página publicada:** [https://usuario.github.io/proyecto-web-crisis](https://usuario.github.io/proyecto-web-crisis)
+Proyecto realizado por **Mamani Cala Dorian Alberto**  
+Materia: **Programación Web I**
+
+---
