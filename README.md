@@ -60,9 +60,6 @@ proyecto-web-crisis/
 ├── js/
 │   └── script.js
 │
-├── img/
-│   └── imagenes-del-proyecto
-│
 └── README.md
 
 ---
