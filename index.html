@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Consumo Familiar en Crisis</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Simulador Web de Crisis</h1>
+    <nav>
+      <ul>
+        <li><a href="#contexto">Contexto</a></li>
+        <li><a href="#simulador">Simulador</a></li>
+        <li><a href="#casos">Casos de estudio</a></li>
+        <li><a href="#conclusiones">Conclusiones</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="contexto">
+      <h2>Contexto</h2>
+      <p>Este simulador permite comprender cómo el aumento de precios afecta el gasto familiar.</p>
+    </section>
+
+    <section id="simulador">
+      <h2>Simulador de Precios de Alimentos</h2>
+      <form id="form-precios">
+        <label>Producto: <input type="text" id="producto"></label>
+        <label>Precio anterior: <input type="number" id="precioAnterior"></label>
+        <label>Precio actual: <input type="number" id="precioActual"></label>
+        <label>Cantidad mensual: <input type="number" id="cantidad"></label>
+        <button type="button" id="calcular">Calcular</button>
+        <button type="reset">Limpiar</button>
+      </form>
+    </section>
+
+    <section id="resultados">
+      <h2>Resultados</h2>
+      <div id="output"></div>
+    </section>
+
+    <section id="casos">
+  <h2>Casos de estudio</h2>
+
+  <ul>
+    <li>Arroz: 8 Bs → 11 Bs, cantidad 10.</li>
+    <li>Aceite: 12 Bs → 16 Bs, cantidad 5.</li>
+    <li>Azúcar: 7 Bs → 9 Bs, cantidad 8.</li>
+  </ul>
+</section>
+    <section id="conclusiones">
+      <h2>Conclusiones</h2>
+      <p>El simulador muestra cómo el incremento de precios afecta directamente el presupuesto familiar.</p>
+    </section>
+
+    <footer>
+      <p>Proyecto realizado por Mamani Cala Dorian  Alberto.</p>
+    </footer>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
